@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Gradient for the stylized 'D' curve -->
+    <linearGradient id="dGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="45%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#2563eb" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Dark rounded container background -->
+  <rect width="500" height="500" rx="100" fill="#090d16" />
+
+  <!-- Outer stylized 'D' arc wrapping around 'T' -->
+  <path
+    d="M 190 190
+       L 270 190
+       C 345 190, 395 235, 395 305
+       C 395 375, 345 420, 270 420
+       L 245 420
+       L 245 372
+       L 270 372
+       C 315 372, 345 342, 345 305
+       C 345 268, 315 238, 270 238
+       L 190 238
+       Z"
+    fill="url(#dGradient)"
+    filter="url(#glow)"
+  />
+
+  <!-- Bold white 'T' letter overlapping -->
+  <g fill="#ffffff">
+    <!-- Top horizontal bar of T -->
+    <rect x="188" y="224" width="76" height="42" rx="4" />
+    <!-- Vertical stem of T -->
+    <rect x="216" y="224" width="38" height="154" rx="4" />
+  </g>
+</svg>
