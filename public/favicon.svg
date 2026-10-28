@@ -1,0 +1,24 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="dGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="dotGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="url(#bgGrad)"/>
+  <rect x="3" y="3" width="94" height="94" rx="19" fill="none" stroke="url(#dGrad)" stroke-width="0.8" opacity="0.4"/>
+  <path d="M 18 22 H 46 C 62 22 74 33 74 50 C 74 67 62 78 46 78 H 18 Z
+           M 30 33 H 45 C 55 33 62 40.5 62 50 C 62 59.5 55 67 45 67 H 30 Z"
+        fill="url(#dGrad)" fill-rule="evenodd"/>
+  <rect x="36" y="22" width="38" height="11" rx="3" fill="white" opacity="0.95"/>
+  <rect x="51" y="22" width="12" height="56" rx="3" fill="white" opacity="0.95"/>
+  <circle cx="81" cy="19" r="5.5" fill="url(#dotGrad)"/>
+</svg>
