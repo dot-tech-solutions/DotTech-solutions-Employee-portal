@@ -103,9 +103,9 @@ export function SidebarLayout({
         <div className="h-16 flex items-center justify-between px-5 border-b border-slate-100">
           <Link href={role === "ADMIN" ? "/admin/dashboard" : "/employee/dashboard"} className="flex items-center gap-3">
             <img
-              src="/company-logo.svg"
+              src="/company-logo.png"
               alt="DotTech Solutions"
-              className="w-9 h-9 rounded-xl shadow-xs ring-1 ring-slate-900/10 object-contain shrink-0"
+              className="w-9 h-9 rounded-xl object-contain shrink-0"
             />
             <div>
               <span className="font-bold text-slate-900 tracking-tight text-sm">DotTech Flow</span>
@@ -190,9 +190,9 @@ export function SidebarLayout({
             </button>
             <div className="flex items-center gap-2.5">
               <img
-                src="/company-logo.svg"
+                src="/company-logo.png"
                 alt="DotTech Logo"
-                className="w-7 h-7 rounded-lg ring-1 ring-slate-900/10 object-contain shadow-2xs"
+                className="w-7 h-7 object-contain"
               />
               <h1 className="text-sm sm:text-base font-semibold text-slate-900">DotTech Solutions Portal</h1>
             </div>

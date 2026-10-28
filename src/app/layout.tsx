@@ -16,8 +16,9 @@ export const metadata: Metadata = {
   title: "DotTech Solutions Portal",
   description: "DotTech Solutions Employee Portal – Manage tasks, projects, and submissions.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/company-logo.png",
+    shortcut: "/company-logo.png",
+    apple: "/company-logo.png",
   },
 };
 
