@@ -87,3 +87,4 @@ npx prisma studio    # Open Prisma GUI
 3. Set env vars: `APP_SECRET`, `DATABASE_URL`, `GITHUB_WEBHOOK_SECRET`, `RESEND_API_KEY`
 4. Run `npx prisma migrate deploy` in build command
 5. Deploy
+firebase login
